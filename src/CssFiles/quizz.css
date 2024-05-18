@@ -1,0 +1,129 @@
+.outer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    /* background: linear-gradient(to left, #642b73, #c6426e);  */
+    background-image: url("../images/3263325.jpg");
+    background-position: center;
+    
+}
+
+.inner {
+    background-color: '#f9f9f9';
+    width:95%;
+    height: 95%;
+
+}
+
+.Question-heading {
+    margin-top: 10vh;
+    color: white;
+    font-weight: bold;
+
+}
+.question-outer
+{
+    height: 55%;
+
+}
+.question {
+
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 5vh;
+    
+}
+#mcq-td
+{
+    height: 25vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+    transition: background-color 0.3s;
+}
+
+.mcq-outer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    /* height: 80%; */
+    
+}
+
+.mcqs {
+    list-style-type: none;
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.next-question-btn
+{
+    width: 20%;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);
+}
+.time
+{
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    font-size: 4vh;
+}
+.final-score {
+    color: #555;
+}
+
+.result {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.score
+{
+    color: white;
+    font-size: 4vh;
+    margin-top: 3vh;
+}
+.quizz-completed{
+    color: white;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+.restart
+{
+  
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+@media  screen and (max-width: 600px) {
+   
+    
+}

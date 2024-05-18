@@ -1,0 +1,26 @@
+.err
+{
+    background-image: url("../images/explore.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.err1{
+    box-sizing: border-box;
+    font-size: 10vh;
+    margin-left: 65vh;  
+}
+@media  screen and (max-width: 600px) {
+    .err1{
+        box-sizing: border-box;
+        font-size: 6vh;
+        margin-left: 3vh;
+        margin-top: 15vh;
+    }
+    
+}

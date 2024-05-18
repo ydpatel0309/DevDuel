@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* for hidinag the scroll bar but still able to scroll */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.form-outer
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.form
+{
+    box-sizing: border-box;
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    
+    
+}
+.container-outer{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   height: 100vh;
+   background-image: url("../images/3263325.jpg");
+   background-position: center;
+   
+  }
+.container {
+    padding: 10px; 
+    margin-top: 20px;
+    border: 1px solid white ;
+    border-radius: 10px;
+  }
+  .container h1{
+    color: white;
+  }
+
+.container label
+{
+    font-size: 3vh;  
+    
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: none;
+  background: transparent; 
+  color:white;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+.container label,::placeholder{
+  color: white;
+  padding: 30px;
+ 
+}
+
+hr {
+  border: 1px solid #ff6700;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the Submit button */
+.btn-submit {
+    margin-top: 1vh;
+    padding: 1.1em 2em ;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    color: #131313;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #ecd448;
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px #000;
+   }
+   
+   .btn-submit:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #ff6700;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+   }
+   
+   .btn-submit:hover {
+    background-color: #4cc9f0;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #0d3b66;
+   }
+   
+   .btn-submit:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+   }
+   
+   .btn-submit:active {
+    transform: scale(0.9);
+   }
+
+   .dates
+   {
+    height: 11vh;
+   }
+
+input[type=date],input[type=number] {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  border: 2px solid black;
+  background: white;
+  color: rgb(0, 0, 0);
+  font-size: 20px;  
+}
+
+@media  screen and (max-width: 600px) {
+ 
+  input[type=date],input[type=number] {
+    width: 80%;
+    padding: 10px;
+    background: white;
+    color: rgb(0, 0, 0);
+    
+  }
+  .dates
+   {
+    height: 15vh;
+   }  
+  }
+
+
+
