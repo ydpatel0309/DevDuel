@@ -1,34 +1,30 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useNavigate } from "react-router-dom"; 
-
-
+import { useNavigate } from "react-router-dom";
 import '../CssFiles/Form.css';
 
 const Form = () => {
-
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     sdate: '',
+    language: 'javascript', // Default selected language
     remember: true,
   });
 
   const notify = () => {
     toast.success('Success', {
       position: "top-right",
-autoClose: 2000,
-hideProgressBar: false,
-closeOnClick: true,
-pauseOnHover: true,
-draggable: true,
-progress: undefined,
-theme: "dark",
-
-
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
     });
   };
 
@@ -43,8 +39,7 @@ theme: "dark",
 
       if (response.ok) {
         notify();
-        //go to QuizzApp page
-        navigate("/quizz");
+        navigate(`/quizz?language=${formData.language}`);
       } else {
         console.error('Booking failed:', response.statusText);
       }
@@ -75,8 +70,7 @@ theme: "dark",
           >
             <div className="container">
               <h1 align="center">Game Form</h1>
-            
-
+              
               <label htmlFor="name"><b>Name</b></label>
               <input
                 type="text"
@@ -109,12 +103,22 @@ theme: "dark",
                 />
               </div>
 
+              <label htmlFor="language"><b>Select Language</b></label>
+              <select
+                name="language"
+                value={formData.language}
+                onChange={handleChange}
+                required
+              >
+                <option value="javascript">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="cpp">C++</option>
+              </select>
+
               <br />
 
-              
-
               <div className="clearfix">
-                <button type="submit" className="btn-submit" >
+                <button type="submit" className="btn-submit">
                   Submit
                 </button>
               </div>
