@@ -6,7 +6,6 @@
     height: 100vh;
     width: 100%;
     z-index: 1;
-    /* background: linear-gradient(to left, #642b73, #c6426e);  */
     background-image: url("../images/3263325.jpg");
     background-position: center;
     
@@ -64,7 +63,6 @@
     justify-content: center;
     align-items: center;
     height: 40%;
-    /* height: 80%; */
     
 }
 
@@ -97,7 +95,6 @@
 }
 
 .result {
-    /* background-color: white; */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
