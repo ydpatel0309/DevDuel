@@ -114,8 +114,19 @@
 {
   
     background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);
-    color: #fff;
+    color: black;
     padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+.exit
+{
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    color: black;
+    padding: 10px;
+    font-weight: 500;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 3vh;

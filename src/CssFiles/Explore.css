@@ -202,7 +202,20 @@
    transition-duration: 0.3s;
  }
  
-
+.loading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  box-sizing: border-box;
+  background-image: url("../images/3263325.jpg");
+  background-position: center;
+}
 
  @media only screen and (max-width: 600px) {
     .explore-ul,li

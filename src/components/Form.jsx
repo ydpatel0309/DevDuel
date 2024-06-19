@@ -11,7 +11,7 @@ const Form = () => {
     name: '',
     email: '',
     sdate: '',
-    language: 'javascript', // Default selected language
+    language: 'javascript', 
     remember: true,
   });
 
