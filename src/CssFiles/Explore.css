@@ -71,7 +71,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
  }
  .back-to-top-button {
     width: 50px;
@@ -144,7 +144,7 @@
    width: 15%;
    display: flex;
    justify-content: center;
-   align-items: end;
+   align-items: flex-end;
 }
 .back-to-landingpage-button {
    width: 50px;

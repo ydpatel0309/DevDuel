@@ -121,7 +121,7 @@
     cursor: pointer;
     margin-top: 3vh;
 }
-.exit
+.quit
 {
     background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     color: black;

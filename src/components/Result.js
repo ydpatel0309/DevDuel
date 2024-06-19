@@ -17,9 +17,9 @@ export default function Result({ score, getRandomQuestions }) {
       </button>
       <button
         onClick={() => navigate('/')}
-        className='exit'
+        className='quit'
       >
-        Exit
+        Quit
       </button>
     </div>
   );
