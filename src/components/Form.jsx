@@ -67,11 +67,11 @@ const Form = () => {
             method="post"
             id="sheetdb-form"
             onSubmit={handleSubmit}
+            className='container'
           >
-            <div className="container">
-              <h1 align="center">Game Form</h1>
+              <h1 align="center"><i>Game Form</i></h1>
               
-              <label htmlFor="name"><b>Name</b></label>
+              <label htmlFor="name"><b><i>Name</i></b></label>
               <input
                 type="text"
                 placeholder="Enter Name"
@@ -81,7 +81,7 @@ const Form = () => {
                 required
               />
 
-              <label htmlFor="email"><b>Email</b></label>
+              <label htmlFor="email"><b><i>Email</i></b></label>
               <input
                 type="text"
                 placeholder="Enter Email"
@@ -91,24 +91,14 @@ const Form = () => {
                 required
               />
 
-              <div className="dates">
-                <label htmlFor="sdate"><b>Birthday Date :</b></label>
-                <input
-                  type="date"
-                  placeholder="Enter Birthday Date"
-                  name="sdate"
-                  value={formData.sdate}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
 
-              <label htmlFor="language"><b>Select Language</b></label>
+              <label htmlFor="language"><b><i>Select Language</i></b></label>
               <select
                 name="language"
                 value={formData.language}
                 onChange={handleChange}
                 required
+                className='select'
               >
                 <option value="javascript">JavaScript</option>
                 <option value="java">Java</option>
@@ -122,7 +112,6 @@ const Form = () => {
                   Submit
                 </button>
               </div>
-            </div>
           </form>
         </div>
       </div>
