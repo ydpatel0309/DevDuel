@@ -69,11 +69,6 @@ Creating a programming quiz game involves incorporating various features to make
 Include multiple-choice questions to test participants' knowledge of syntax, language features, and programming concepts.
 
 
-2)Coding Challenges:
-
-Incorporate coding challenges that require participants to write code to solve problems.
-Support various programming languages to cater to a broader audience.
-
 
 3)Timer and Time-Based Scoring:
 
@@ -86,11 +81,10 @@ Introduce time-based scoring to reward participants for quick and accurate respo
 Offer questions at different difficulty levels to cater to participants with varying skill levels.
 Allow participants to choose their preferred difficulty or implement adaptive difficulty based on performance.
 
+ 
+5)Download attempted quiestion:
 
-5)Leaderboards:
-
-Include a leaderboard to display the scores and rankings of participants.
-Foster competition and motivation by showing how participants compare to others.
+Enable participants to download attempted questions in a text file: Allow participants to easily download a text file containing all the questions they have attempted, along with their answers. This feature helps participants review their performance, identify areas for improvement, and retain a record of their progress for future reference.
 
 
 6)Progress Tracking:
@@ -111,7 +105,3 @@ Cover a broad range of programming topics, including syntax, algorithms, data st
 Allow participants to choose quizzes based on specific programming languages or concepts.
 
 
-9)Mobile-Friendly Design:
-
-Ensure the quiz game is accessible on various devices, including mobile phones and tablets.
-Create a responsive design for a seamless experience across different screen sizes.
