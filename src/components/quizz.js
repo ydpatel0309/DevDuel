@@ -99,17 +99,8 @@ const QuizzApp = () => {
           </div>
         ) : (
 
-          <Result score={score} getRandomQuestions={getRandomQuestions} />
-          // <div className="result">
-          //   <h2 className='quizz-completed'>Quiz Completed!</h2>
-          //   <h3 className='score'>Your final score is: {score}</h3>
-          //   <button
-          //     onClick={getRandomQuestions}
-          //     className='restart'
-          //   >
-          //     Restart Quiz
-          //   </button>
-          // </div>
+          <Result score={score} getRandomQuestions={getRandomQuestions} shuffledQuestions={shuffledQuestions}/>
+      
         )}
       </div>
     </div>

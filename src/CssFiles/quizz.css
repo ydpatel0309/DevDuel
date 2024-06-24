@@ -110,7 +110,7 @@
     font-size: 4vh;
     font-weight: bolder;
 }
-.restart
+.restart,.quit
 {
   
     background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);
@@ -121,7 +121,7 @@
     cursor: pointer;
     margin-top: 3vh;
 }
-.quit
+.download
 {
     background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     color: black;
